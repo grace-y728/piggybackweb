@@ -1,1 +1,19 @@
-//css
+.jumbotron {
+  background-color: #ffd0e1;
+  width: auto;
+  height: auto;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.display-3 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+#topjumbo {
+  margin-top: 100px;
+}
