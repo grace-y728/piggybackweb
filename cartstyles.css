@@ -5,3 +5,11 @@
 	padding-right: 10px;
 }
 
+h2, h3 {
+	text-align: center;
+}
+
+#totalString{
+	text-align: right;
+	text-color: red;
+}
