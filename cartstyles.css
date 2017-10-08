@@ -17,6 +17,14 @@ h5 {
 	cursor: pointer;
 }
 
+.findclass {
+	text-align: center;
+}
+
+#findbutton {
+	text-align: center;
+	color: white;
+}
 #delete_row {
 	margin-left: 20px;
 }

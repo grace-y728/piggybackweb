@@ -44,5 +44,5 @@ function goToCart(){
 }
 
 function goToFind(){
-  window.location="test.html";
+  window.location="findmatch.html";
 }
