@@ -22,3 +22,27 @@ $( document ).ready(function() {
   });
 
 });
+
+function goToHome(){
+  window.location="index.html";
+}
+
+function goToProfile(){
+  window.location="test.html";
+}
+
+function goToSettings(){
+  window.location="test.html";
+}
+
+function goToFAQ(){
+  window.location="test.html";
+}
+
+function goToCart(){
+  window.location="test.html";
+}
+
+function goToFind(){
+  window.location="test.html";
+}

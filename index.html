@@ -34,10 +34,10 @@
 
 <div class="menu">
   <ul>
-    <a href="#"><li>Home</li></a>
-    <a href="#"><li>Profile</li></a>
-    <a href="#"><li>Settings</li></a>
-    <a href="#"><li>FAQ</li></a>
+    <a href="#" onclick=goToHome()><li>Home</li></a>
+    <a href="#" onclick=goToProfile()><li>Profile</li></a>
+    <a href="#" onclick=goToSettings()><li>Settings</li></a>
+    <a href="#" onclick=goToFAQ()><li>FAQ</li></a>
   </ul>
 </div>
 
@@ -46,7 +46,7 @@
     <h1 class="display-3">My Shopping Cart</h1>
     <br>
     <div class="wrapper">
-      <a class="btn btn-success btn-lg" href="#" role="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      <a id="cartbutton" class="btn btn-success btn-lg" href="#" role="button" onclick=goToCart()><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
     </div>
   </div>
 
@@ -55,7 +55,7 @@
     <h1 class="display-3">Find Matches</h1>
     <br>
     <div class="wrapper">
-      <a class="btn btn-success btn-lg" href="#" role="button"><i class="fa fa-id-card-o" aria-hidden="true"></i></a>
+      <a id="findbutton" class="btn btn-success btn-lg" href="#" role="button" onclick=goToFind()><i class="fa fa-id-card-o" aria-hidden="true"></i></a>
     </div>
   </div>
 </body>
