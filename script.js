@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  
+
   //initialize
   $( ".cross" ).hide();
   $( ".menu" ).hide();
@@ -28,11 +28,11 @@ function goToHome(){
 }
 
 function goToProfile(){
-  window.location="test.html";
+  window.location="profile.html";
 }
 
 function goToSettings(){
-  window.location="test.html";
+  window.location="settings.html";
 }
 
 function goToAbout(){
