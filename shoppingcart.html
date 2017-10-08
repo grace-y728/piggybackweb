@@ -1,19 +1,40 @@
 <!--shoppingcart.html-->
 
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!--include jquery, popper-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
 
+  <!--include bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 
-<link rel = "stylesheet"
-   type = "text/css"
-   href = "styles.css" />
+  <!--include fontawesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--link css-->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <!--link script-->
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-	<p>PiggyBack</p>
+
+	<header>
+		<div>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+			<div class="titlediv"><h1 class="title">My Cart</h1></div>
+			<div class="logodiv"><img class="logo" src="logo.png"></div>
+		</div>
+
+	</header>
+
+
+
 	<div class="container">
-   <h2>My Shopping Cart</h2>
-   <p>Input URL and price to see total and find compatible matches</p>            
+   <p>Input URL and price to see total and find compatible matches</p>
   <table class="table">
     <thead>
       <tr>
@@ -50,11 +71,11 @@
 
 	</div>
 
-	
+
 
 	<br></br>
   	<p id="totalString" style="padding-left:15px;"><strong>Total: $0.00</strong></p>
- 		
+
 	</div>
 
 	<script>
@@ -77,10 +98,10 @@
 			}
 		}
 
-		
+
 
 		/*function myFunction() {
-			var temp; 
+			var temp;
     		temp = document.getElementById("price").value;
     		alert(temp);
 		}*/

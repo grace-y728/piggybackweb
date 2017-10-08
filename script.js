@@ -1,9 +1,8 @@
 $( document ).ready(function() {
-
+  
   //initialize
   $( ".cross" ).hide();
   $( ".menu" ).hide();
-  window.resizeto(2500, 250);
 
   //display menu
   $(".hamburger").click(function () {
@@ -36,12 +35,12 @@ function goToSettings(){
   window.location="test.html";
 }
 
-function goToFAQ(){
+function goToAbout(){
   window.location="test.html";
 }
 
 function goToCart(){
-  window.location="test.html";
+  window.location="shoppingcart.html";
 }
 
 function goToFind(){
