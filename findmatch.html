@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!--include jquery, popper-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="http://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
+
+   <!--include bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+   <!--include fontawesome-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!--link css-->
+   <link rel="stylesheet" href="styles.css"/>
+   <link rel="stylesheet" href="findmatch.css"/>
+   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+   <!--link script-->
+   <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+  <div class="titlediv"><h1 class="title">Find Match</h1></div>
+  <div class="logodiv"><img class="logo" src="logo.png"></div>
+  </div>
+
+
+  </header>
+
+  <div class="menu">
+  <ul>
+    <a href="#" onclick=goToHome()><li>Home</li></a>
+    <a href="#" onclick=goToProfile()><li>Profile</li></a>
+    <a href="#" onclick=goToCart()><li>Shopping Cart</li></a>
+    <a href="#" onclick=goToSettings()><li>Settings</li></a>
+    <a href="#" onclick=goToAbout()><li>About Piggyback</li></a>
+
+  </ul>
+  </div>
+  <br>
+  <div class="match">
+    <h2 class="matchtext">PiggyBack? </h2>
+    <img class="profilepic" src="fbprofile.jpg"</img>
+    <h2 class="person">Grace Yu</h2>
+    <br>
+    <a id="matchbutton" class="btn btn-primary" href="https://www.facebook.com/grace.yu.1422409">Connect on Facebook</a>
+    <br><br><a id="matchbutton" class="btn btn-success" onclick=goToFind()>Find Another</a>
+    <a id="matchbutton" class="btn btn-success" onclick=goToCart()>Back to Cart</a>
+  </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
