@@ -3,6 +3,7 @@ $( document ).ready(function() {
   //initialize
   $( ".cross" ).hide();
   $( ".menu" ).hide();
+  window.resizeto(2500, 250);
 
   //display menu
   $(".hamburger").click(function () {
