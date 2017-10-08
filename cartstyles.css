@@ -1,15 +1,28 @@
-//css
+body {
+		font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+	text-align: center;
+}
 
 .container-fluid{
 	padding-left: 10px;
 	padding-right: 10px;
+	font-family: 'Quicksand', sans-serif;
 }
 
-h2, h3 {
-	text-align: center;
+.buttons {
+	color: white;
+	cursor: pointer;
+}
+
+#delete_row {
+	margin-left: 20px;
 }
 
 #totalString{
 	text-align: right;
-	text-color: red;
+	font-weight: bold;
+	color: #ef5e96;
 }
