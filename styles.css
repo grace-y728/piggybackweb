@@ -1,7 +1,7 @@
 .jumbotron {
   background-color: #ffd0e1;
-  width: auto;
-  height: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .wrapper {
@@ -12,8 +12,113 @@
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   color: white;
+  font-size: 3em;
 }
 
 #topjumbo {
   margin-top: 100px;
+}
+
+header{
+	width:100%;
+	background:#5cb263;
+	height:100px;
+	line-height:60px;
+	border-bottom:2px solid #dddddd;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.title{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin-left: 270px;
+  margin-top: 20px;
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  z-index: 10000000000000000000;
+}
+
+.hamburger{
+  background: none;
+  top:0px;
+  left:0px;
+  line-height:45px;
+  font-weight: bold;
+  padding: 28px 34px 25px 34px;
+  color: white;
+  border: 0;
+  font-size: 2.5em;
+  cursor: pointer;
+  outline: none;
+  z-index:10000000000000;
+  background:#5cb263;
+}
+.cross{
+  background:none;
+  top:0px;
+  left:0px;
+  padding:27px 41px 10px 42px;
+  color:white;
+  border:0;
+  font-size:4.5em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  background:#5cb263;
+}
+
+.menu{
+  z-index:1000000;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  width:30%;
+  background:#5cb263;
+  position:absolute;
+  text-align:center;
+  font-size:24px;
+  color: green;
+
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+.menu li {
+  display: block;
+  padding:15px 0 15px 0;
+  border-bottom:#dddddd 1px solid;
+  color: white;
+}
+
+.menu li:hover{
+  display: block;
+  background: #ffd0e1;
+  padding:15px 0 15px 0;
+  border-bottom:#dddddd 1px solid;
+  font-size: 24px;
+}
+.menu ul li a {
+  text-decoration:none;
+  margin: 0px;
+  color:#666;
+}
+.menu ul li a:hover {
+  color: #666;
+  text-decoration:none;
+}
+.menu a{
+  text-decoration:none;
+  color:#666;
+}
+.menu a:hover{
+  text-decoration:none;
+  color:#666;
 }
