@@ -2,11 +2,63 @@
 <html>
 
 <head>
-<script src="jquery-3.2.1.min.js"></script>
+  <!--include jquery, popper-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
+
+  <!--include bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+  <!--include fontawesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--link css-->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <!--link script-->
+  <script type="text/javascript" src="script.js"></script>
+
 </head>
 
 <body>
+  <header>
+    <div>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+  <div class="titlediv"><h1 class="title">PiggyBack</h1></div>
+  <div class="logodiv"><img class="logo" src="logo.png"></div>
+</div>
+
+
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="#" onclick=goToHome()><li>Home</li></a>
+    <a href="#" onclick=goToProfile()><li>Profile</li></a>
+    <a href="#" onclick=goToSettings()><li>Settings</li></a>
+    <a href="#" onclick=goToFAQ()><li>FAQ</li></a>
+  </ul>
+</div>
+
+  <!--shopping cart-->
+  <div style="background:!important" class="jumbotron container" id="topjumbo">
+    <h1 class="display-3">My Shopping Cart</h1>
+    <br>
+    <div class="wrapper">
+      <a id="cartbutton" class="btn btn-success btn-lg" href="#" role="button" onclick=goToCart()><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <!--find matches-->
+  <div style="background:!important" class="jumbotron container">
+    <h1 class="display-3">Find Matches</h1>
+    <br>
+    <div class="wrapper">
+      <a id="findbutton" class="btn btn-success btn-lg" href="#" role="button" onclick=goToFind()><i class="fa fa-id-card-o" aria-hidden="true"></i></a>
+    </div>
+  </div>
 </body>
 
 </html>
-
